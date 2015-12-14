@@ -1,7 +1,7 @@
-(function() {
-	function baar(y){
+define("bar", [], function(){
+	function bar(y){
 		y += 5;
 		return y;
-	}
-	return baar;
-})();
+	};
+	return bar;
+}); 

@@ -1,7 +1,7 @@
-(function(){
-	function fooo (x){
+define("foo", [], function(){
+	function foo(x){
 		x += 9;
 		return x;
 	}; 
-	return fooo;
-})();
+	return foo;
+});
